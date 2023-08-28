@@ -89,9 +89,9 @@ export default function Home() {
 	return (
 		<div className="flex h-screen">
 			{/* Sidebar */}
-			<aside className="hidden md:flex w-fit h-screen px-2 mx-auto bkg border-r-2 bdr flex-col justify-between">
+			<aside className="w-1/12 bkg border-r-2 bdr flex flex-col justify-between">
 				<div
-					className="text-white cursor-pointer mt-4 p-2 bkg-inv rounded-full"
+					className="text-white cursor-pointer mx-auto mt-4 p-2 bkg-inv rounded-full"
 					onClick={toggleDarkMode}>
 					{darkMode ? (
 						<SunIcon className="w-8 h-8 frg-text-inv" />
@@ -109,7 +109,7 @@ export default function Home() {
 			{/* Main Content */}
 			<main className="w-full overflow-y-scroll">
 				{/* Navbar */}
-				<nav className="fixed md:relative w-full z-50 bkg p-4 border-b-2 bdr">
+				<nav className="bg-transparent p-4 border-b-2 bdr">
 					<div className="container mx-auto">
 						<div className="flex justify-between items-center">
 							<div className="text-2xl">
@@ -117,24 +117,19 @@ export default function Home() {
 									<span className="font-extrabold">brian</span>weloba
 								</p>
 							</div>
-							<div
-								className="text-white md:hidden cursor-pointer p-2 bkg-inv rounded-full"
-								onClick={toggleDarkMode}>
-								{darkMode ? (
-									<SunIcon className="w-8 h-8 frg-text-inv" />
-								) : (
-									<MoonIcon className="w-8 h-8 frg-text-inv" />
-								)}
+
+							<div className="md:hidden">
+								{/* Add responsive mobile menu button here */}
 							</div>
 						</div>
 					</div>
 				</nav>
 
 				{/* Main Content */}
-				<div className=" mt-20 md:mt-0 py-4 border-b-2 bdr">
-					<div className="h-fit py-2 md:py-4 mx-auto overflow-hidden">
+				<div className="py-4 border-b-2 bdr">
+					<div className="h-fit py-4 mx-auto overflow-hidden">
 						{/* Add the scrolling text */}
-						<div className="mx-auto text-3xl md:text-5xl">
+						<div className="mx-auto text-5xl">
 							<div
 								className="scrolling-text animate-scroll font-jost"
 								style={{ whiteSpace: "nowrap" }}>
@@ -144,17 +139,8 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col md:flex-row h-fit">
-					<div className="p-10 md:p-4 bdr border-b-2">
-						<Image
-							className="border-2 bdr rounded-lg"
-							src={profilePic}
-							width={1000}
-							height={500}
-							alt="Picture of the author"
-						/>
-					</div>
-					<div className=" border-l-0 md:border-l-2 border-b-2 bdr h-auto p-8 text-base md:text-xl  font-poppins text-center">
+				<div className="flex h-fit">
+					<div className="border-r-2 border-b-2 bdr h-auto p-8 text-2xl font-poppins text-center">
 						<h1 className="font-extrabold font-archivo">
 							CTRL+ART+DELIGHT! 😄🎨🔧
 						</h1>
@@ -171,22 +157,31 @@ export default function Home() {
 						PIXELS AND THE PUNS? LET&apos;S DIVE INTO THE TECHNICOLOR WORLD OF
 						ME!
 					</div>
+					<div className="p-4 bdr border-b-2">
+						<Image
+							className="border-2 bdr rounded-lg"
+							src={profilePic}
+							width={1000}
+							height={500}
+							alt="Picture of the author"
+						/>
+					</div>
 				</div>
-				<div className="h-fit mt-8 md:mx-4">
+				<div className="h-fit mt-8 mx-4">
 					<div className="flex font-poppins font-bold">
 						<div
 							onClick={() => handleTabChange("frontend")}
 							className={`w-1/3 py-4 border-t-2 border-l-2 border-r-2 rounded-t-xl justify-center cursor-pointer flex ${
 								activeTab === "frontend" ? "active-tab" : "inactive-tab"
 							}`}>
-							FRONT-END
+							FRONT-END DEV
 						</div>
 						<div
 							onClick={() => handleTabChange("backend")}
 							className={`w-1/3 py-4 border-t-2 border-l-2 border-r-2 rounded-t-xl bdr justify-center cursor-pointer flex ${
 								activeTab === "backend" ? "active-tab" : "inactive-tab"
 							}`}>
-							BACK-END
+							BACK-END DEV
 						</div>
 						<div
 							onClick={() => handleTabChange("software")}
@@ -196,26 +191,26 @@ export default function Home() {
 							SOFTWARE
 						</div>
 					</div>
-					<div className="h-full bg-transparent p-2 md:p-8 bdr border-x-2">
+					<div className="h-full bg-transparent p-8 bdr border-x-2">
 						<div className="h-fit bkgfrg-text">
 							<Skills category={activeTab} />
 						</div>
 					</div>
 				</div>
 				<div>
-					<div className="text-3xl md:text-5xl capitalize font-jost font-thin py-2 md:py-4 pl-2 md:pl-4 bdr border-t-2 border-b-2">
+					<div className="text-5xl capitalize font-jost font-thin py-4 pl-4 bdr border-t-2 border-b-2">
 						WORK EXPERIENCE
 					</div>
 					<WorkSection />
 				</div>
 				<div>
-					<div className="text-3xl md:text-5xl capitalize font-jost font-thin py-2 md:py-4 pl-4 bdr border-t-2 border-b-2">
+					<div className="text-5xl capitalize font-jost font-thin py-4 pl-4 bdr border-t-2 border-b-2">
 						EDUCATION
 					</div>
 					<EducationSection />
 				</div>
 				<div>
-					<div className="text-3xl md:text-5xl capitalize font-jost font-thin py-2 md:py-4 pl-4 bdr border-t-2 border-b-2">
+					<div className="text-5xl capitalize font-jost font-thin py-4 pl-4 bdr border-t-2 border-b-2">
 						PROJECTS
 					</div>
 					<Projects />
