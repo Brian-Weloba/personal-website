@@ -16,25 +16,25 @@ const contactLinks = [
 	},
 	{
 		name: "Twitter",
-		link: "https://twitter.com/yourtwitterhandle",
+		link: "https://twitter.com/BrainWeloba",
 		icon: <FaTwitter />,
 		hoverClass: "hover:text-[#1DA1F2]", // Define Twitter blue color
 	},
 	{
 		name: "GitHub",
-		link: "https://github.com/yourgithubprofile",
+		link: "https://github.com/Brian-Weloba",
 		icon: <FaGithub />,
 		hoverClass: "gh", // Change to the color you prefer
 	},
 	{
 		name: "LinkedIn",
-		link: "https://www.linkedin.com/in/yourlinkedinprofile",
+		link: "https://www.linkedin.com/in/brian-weloba-a02000187/",
 		icon: <FaLinkedin />,
 		hoverClass: "hover:text-[#0077B5]", // Define LinkedIn blue color
 	},
 	{
 		name: "Spotify",
-		link: "https://open.spotify.com/user/yourspotifyprofile",
+		link: "https://open.spotify.com/user/Nyosh",
 		icon: <FaSpotify />,
 		hoverClass: "hover:text-green-400", // Define your desired hover color
 	},
