@@ -10,13 +10,13 @@ import {
 const contactLinks = [
 	{
 		name: "Instagram",
-		link: "https://www.instagram.com/yourinstagramprofile",
+		link: "https://www.instagram.com/nyonges4/?hl=en",
 		icon: <FaInstagram />,
 		hoverClass: " hover:text-red-300", // Define Instagram blue color
 	},
 	{
 		name: "Twitter",
-		link: "https://twitter.com/BrainWeloba",
+		link: "https://twitter.com/BrianWeloba?t=ep8NFVguQuTLORE5GpSDJg&s=09",
 		icon: <FaTwitter />,
 		hoverClass: "hover:text-[#1DA1F2]", // Define Twitter blue color
 	},
@@ -34,7 +34,7 @@ const contactLinks = [
 	},
 	{
 		name: "Spotify",
-		link: "https://open.spotify.com/user/Nyosh",
+		link: "https://open.spotify.com/user/31cd35kqylcwjxlve5eg4ccnhw4m?si=EiO1kucZQFqmh_V6HDRUjQ",
 		icon: <FaSpotify />,
 		hoverClass: "hover:text-green-400", // Define your desired hover color
 	},
