@@ -12,7 +12,7 @@ function App({
 	return (
 		<DarkModeProvider>
 			<Head>
-				<meta property="og:title" content="Welcome 😃" />
+				<meta property="og:title" content="Brian Weloba" />
 				<meta
 					property="description"
 					content="Brian Weloba's developer portfolio"
