@@ -7,9 +7,9 @@ import Link from 'next/link';
 import { NextPageContext } from 'next';
 
 // Define the ErrorProps type
-type ErrorProps = {
-  statusCode: number;
-};
+// type ErrorProps = {
+//   statusCode: number;
+// };
 
 Error.getInitialProps = ({ res, err }:NextPageContext) => {
   const statusCode = res ? res.statusCode : err ? err.statusCode : 404
@@ -17,7 +17,7 @@ Error.getInitialProps = ({ res, err }:NextPageContext) => {
 }
 
 // Remove the getInitialProps function for Next.js 10+
-function Error({ statusCode }: ErrorProps) {
+function Error({ statusCode }:any) {
   const {darkMode, toggleDarkMode} = useDarkMode();
 
   useEffect(() => {
