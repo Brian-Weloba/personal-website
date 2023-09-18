@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
 function DynamicImage() {
 	const [imageSrc, setImageSrc] = useState(
-		"https://now-playing-sooty.vercel.app/now-playing"
+		'https://now-playing-sooty.vercel.app/now-playing'
 	);
 
 	useEffect(() => {
@@ -19,7 +19,7 @@ function DynamicImage() {
 	}, []); // The empty dependency array ensures this effect runs only once
 
 	// eslint-disable-next-line @next/next/no-img-element
-	return <img src={imageSrc} alt="Dynamic Image" />;
+	return <img src={imageSrc} width={256} height={64} alt="Dynamic Image" />;
 }
 
 export default DynamicImage;

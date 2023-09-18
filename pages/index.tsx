@@ -155,8 +155,6 @@ export default function Home() {
 						<Image
 							className="border-2 bdr rounded-lg"
 							src={profilePic}
-							width={1000}
-							height={500}
 							alt="Picture of the author"
 							priority
 						/>
