@@ -22,8 +22,8 @@ export default function Projects() {
 			<div className="p-4 border-b-2 bdr">
 				<h1>🚧 Under Construction 🚧</h1>
 				<p className="text-lg mt-4">
-					We&apos;re hard at work building something amazing! Stay tuned for our
-					fantastic projects.
+					We&apos;re hard at work building something amazing! Stay
+					tuned for our fantastic projects.
 				</p>
 			</div>
 			{/* {projects.map((project) => (

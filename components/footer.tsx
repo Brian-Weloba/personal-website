@@ -3,23 +3,6 @@ import React from "react";
 export default function Footer() {
 	return (
 		<div className="flex flex-col w-full">
-			{/* <div className="w-fit flex h-fit bg-transparent frg-text-inv m-4">
-				<div className="h-auto flex flex-col justify-around bdr border-r-2 border-l-2 rounded-l-2xl bkg-inv">
-					<Image
-						className="m-auto"
-						src={spotifySvg}
-						width={150}
-						height={200}
-						alt="Spotify"
-					/>
-					<h1 className="frg-text-inv font-semibold font-poppins mx-auto">
-						NOW PLAYING
-					</h1>
-				</div>
-				<div className="pr-2 rounded-r-2xl border-2 bdr flex justify-center">
-					<DynamicImage />
-				</div>
-			</div> */}
 			<div className="bkg h-fit w-fit p-2 mx-auto">
 				<svg
 					width="250"
@@ -84,7 +67,9 @@ export default function Footer() {
 					/>
 				</svg>
 			</div>
-			<div className="mx-auto font-poppins py-4">© 2023 | Brian Weloba</div>
+			<div className="mx-auto font-poppins py-4">
+				© 2023 | Brian Weloba
+			</div>
 		</div>
 	);
 }

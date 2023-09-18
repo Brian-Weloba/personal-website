@@ -58,7 +58,6 @@ function Work({ data, isOpen, toggleOpen }: WorkProps) {
 	return (
 		<div className="py-4">
 			<h2 className="mb-0 flex px-2 md:px-5">
-				
 				<button
 					className={`group relative flex flex-col md:flex-row w-full items-start md:align-center md:justify-between border-0 md:px-5 py-4 text-left text-base transition hover:z-[2] focus:z-[3] focus:outline-none`}
 					type="button"

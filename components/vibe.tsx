@@ -1,12 +1,5 @@
 import React from "react";
-import {
-	FaSpotify, // Replace with your Spotify icon
-	FaInstagram,
-	FaTwitter,
-	FaGithub,
-	FaLinkedin,
-} from "react-icons/fa";
-import DynamicImage from "./spotify";
+import { FaInstagram, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const VibeWithMe = () => {
 	return (
@@ -15,7 +8,6 @@ const VibeWithMe = () => {
 				<h2 className="text-4xl font-bold mb-6">Vibe with Me</h2>
 
 				{/* Spotify Now Playing */}
-				
 
 				{/* Social Media Links */}
 				<div className="flex justify-center space-x-4">

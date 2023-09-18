@@ -12,8 +12,7 @@ interface EducationProps {
 
 const educationData: EducationData[] = [
 	{
-		degree:
-			"Bachelor of Arts Interior Design with IT, Second Class Honors (Upper Division)",
+		degree: "Bachelor of Arts Interior Design with IT, Second Class Honors (Upper Division)",
 		school: "Maseno University",
 		period: "August 2016 - March 2021",
 	},

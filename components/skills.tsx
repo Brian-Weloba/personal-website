@@ -1,13 +1,5 @@
 import React from "react";
-import {
-	FaAndroid,
-	FaCode,
-	FaJava,
-	FaServer,
-	FaDatabase,
-	FaRocket,
-	FaUbuntu,
-} from "react-icons/fa";
+import { FaAndroid, FaCode, FaJava, FaUbuntu } from "react-icons/fa";
 import {
 	SiMicrosoftsqlserver,
 	SiMysql,
@@ -39,10 +31,6 @@ const software = [
 		title: "Visual Studio Code",
 		icon: <FaCode />,
 	},
-	//   {
-	//     title: "Eclipse",
-	//     icon: <FaEclipse />,
-	//   },
 	{
 		title: "IntelliJ IDEA",
 		icon: <FaJava />,
