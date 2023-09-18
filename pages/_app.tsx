@@ -25,6 +25,11 @@ function App({
 					property="og:url"
 					content="https://portfolio.saturdev.tech/"
 				/>
+				<meta
+					property="twitter:description"
+					content="Welcome to my developer portfolio"></meta>
+				<meta property="twitter:card" content="player"></meta>
+				<meta property="twitter:title" content="Brian Weloba"></meta>
 			</Head>
 			<Component {...pageProps} />
 		</DarkModeProvider>
