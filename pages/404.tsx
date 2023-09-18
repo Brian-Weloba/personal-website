@@ -64,8 +64,8 @@ function NotFoundPage() {
                 </nav>
 
                 {/* Main Content */}
-                <div className="flex flex-col justify-center items-center h-full">
-                    <h1 className="text-2xl font-jost">
+                <div className="flex flex-col justify-center items-center h-full px-2">
+                    <h1 className="text-3xl font-bold font-jost">
                         404 Error: You ventured off the digital map
                     </h1>
                     <ul className="mt-4">
