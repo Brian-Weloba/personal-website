@@ -83,10 +83,10 @@ function Error({ statusCode }: ErrorProps) {
           </h1>
           <ul className="mt-4">
             <li className="py-2">
-              <a href="/" className="bdr cont border-2 font-bold py-2 px-4 flex items-center">
+              <Link href="/" className="bdr cont border-2 font-bold py-2 px-4 flex items-center">
                 <FaArrowLeft className="mr-2" />
                 <p>Return to Homepage</p>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
