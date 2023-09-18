@@ -157,7 +157,8 @@ export default function Home() {
 							src={profilePic}
 							alt="Picture of the author"
 							priority
-							fill={true}
+							placeholder="blur"
+							quality={50}
 						/>
 					</div>
 					<div className=" border-l-0 md:border-l-2 border-b-2 bdr h-auto p-4 md:p-8 text-base md:text-xl  font-poppins text-center">
