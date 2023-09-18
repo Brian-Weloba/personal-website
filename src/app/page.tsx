@@ -145,7 +145,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col md:flex-row h-fit">
-					<div className="p-10 md:p-4 bdr border-b-2">
+					<div className="p-10 md:p-4 bdr md:border-b-2">
 						<Image
 							className="border-2 bdr rounded-lg"
 							src={profilePic}
@@ -154,7 +154,7 @@ export default function Home() {
 							alt="Picture of the author"
 						/>
 					</div>
-					<div className=" border-l-0 md:border-l-2 border-b-2 bdr h-auto p-8 text-base md:text-xl  font-poppins text-center">
+					<div className=" border-l-0 md:border-l-2 border-b-2 bdr h-auto p-4 md:p-8 text-base md:text-xl  font-poppins text-center">
 						<h1 className="font-extrabold font-archivo">
 							CTRL+ART+DELIGHT! 😄🎨🔧
 						</h1>
@@ -238,7 +238,7 @@ export default function Home() {
 								}`}
 							/>
 							<h1
-								className={` text-base font-semibold font-poppins mx-auto  ${
+								className={` text-base text-center font-semibold font-poppins mx-auto  ${
 									isHovered ? "frg-text-inv" : "fgr-text"
 								}`}>
 								NOW PLAYING

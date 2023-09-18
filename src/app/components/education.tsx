@@ -49,7 +49,7 @@ function Education({ data }: EducationProps) {
 						<span className="font-semibold">{school}</span>
 						<span className="font-thin">{degree}</span>
 					</div>
-					<div className=" text-end">
+					<div className=" md:text-end">
 						<p className="font-extralight">{period}</p>
 					</div>
 				</div>

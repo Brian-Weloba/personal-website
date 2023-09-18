@@ -34,7 +34,7 @@ const contactLinks = [
 	},
 	{
 		name: "Spotify",
-		link: "https://open.spotify.com/user/31cd35kqylcwjxlve5eg4ccnhw4m?si=EiO1kucZQFqmh_V6HDRUjQ",
+		link: "https://open.spotify.com/user/31cd35kqylcwjxlve5eg4ccnhw4m?si=EiO1kucZQFqmh_V6HDRUjQgit ",
 		icon: <FaSpotify />,
 		hoverClass: "hover:text-green-400", // Define your desired hover color
 	},
