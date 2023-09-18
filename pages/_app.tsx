@@ -22,6 +22,10 @@ function App({
 					content="Welcome to Brian Weloba's Developer Portfolio. Explore a collection of my coding projects and web applications. I specialize in Full-stack Development and am passionate about creating innovative, user-friendly digital experiences. Dive into my code and see how I turn ideas into reality."
 				/>
 				<meta
+					name="description"
+					content="Welcome to Brian Weloba's Developer Portfolio. Explore a collection of my coding projects and web applications. I specialize in Full-stack Development and am passionate about creating innovative, user-friendly digital experiences. Dive into my code and see how I turn ideas into reality."
+				/>
+				<meta
 					property="og:url"
 					content="https://portfolio.saturdev.tech/"
 				/>
