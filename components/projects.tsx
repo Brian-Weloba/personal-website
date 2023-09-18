@@ -19,7 +19,14 @@ const projects = [
 export default function Projects() {
 	return (
 		<div className="flex flex-col">
-			{projects.map((project) => (
+			<div className="p-4 border-b-2 bdr">
+				<h1>🚧 Under Construction 🚧</h1>
+				<p className="text-lg mt-4">
+					We&apos;re hard at work building something amazing! Stay tuned for our
+					fantastic projects.
+				</p>
+			</div>
+			{/* {projects.map((project) => (
 				<div key={project.id} className="p-4 border-b-2 bdr">
 					<h2 className="text-2xl font-semibold">{project.title}</h2>
 					<p className="text-lg">{project.description}</p>
@@ -31,7 +38,7 @@ export default function Projects() {
 						View Project
 					</a>
 				</div>
-			))}
+			))} */}
 		</div>
 	);
 }
