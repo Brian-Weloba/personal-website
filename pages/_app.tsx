@@ -13,12 +13,13 @@ function App({
 		<DarkModeProvider>
 			<Head>
 				<meta property="og:title" content="Welcome 😃" />
-
+				<meta
+					property="description"
+					content="Brian Weloba's developer portfolio"
+				/>
 				<meta
 					property="og:description"
-					content="Welcome to Brian Weloba's Developer Portfolio. Explore a collection of my coding projects and web applications. 
-                    I specialize in [Your Areas of Expertise, e.g., Full-stack Development, Front-end Development, Mobile App Development] and am passionate about 
-                    creating innovative, user-friendly digital experiences. Dive into my code and see how I turn ideas into reality."
+					content="Welcome to Brian Weloba's Developer Portfolio. Explore a collection of my coding projects and web applications. I specialize in Full-stack Development and am passionate about creating innovative, user-friendly digital experiences. Dive into my code and see how I turn ideas into reality."
 				/>
 				<meta
 					property="og:url"
