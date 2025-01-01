@@ -68,7 +68,7 @@ export default function Footer() {
 				</svg>
 			</div>
 			<div className="mx-auto font-poppins py-4">
-				© 2023 | Brian Weloba
+				© 2025 | Brian Weloba
 			</div>
 		</div>
 	);
